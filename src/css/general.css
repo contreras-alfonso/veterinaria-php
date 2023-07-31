@@ -1,0 +1,76 @@
+.contenedorSpinner{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.764);
+}
+
+.contenedor_datatable{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.displayNone{
+    display: none;
+}
+
+.vacunaAplicada{
+    background-color: rgb(229, 244, 229);
+}
+
+.vacunaNoAplicada{
+    background-color: rgb(251, 240, 240);
+}
+
+.contenedorNombreMascotaCliente{
+    border: 1px solid #7367F0;
+    transition: all 300ms;
+}
+
+.contenedorNombreMascotaCliente:hover{
+    background-color: #e4e4f1;
+    background-color: #ededee;
+}
+.contenedorVacunaFaltante{
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.contenedorVacunaFaltante:hover{
+    background-color: rgb(243, 241, 241);
+}
+.btn-rojo{
+    background-color: #FCE4E4;
+    color: #ea5455;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.delete-red{
+    color: crimson;
+}
+
+.check-verde{
+    color: rgb(64, 221, 64);
+}
+
+.contenedorCitaRealizada:hover{
+    background-color: #DDF6E8;
+}
+
+.contenedorCitaEliminada:hover{
+    background-color: #FCE4E4;
+}

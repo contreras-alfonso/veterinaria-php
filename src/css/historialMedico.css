@@ -1,0 +1,100 @@
+:root{
+    --color-bg:#f4f4f6;
+    --color-purple: #7367f0;
+    --color-bg-purple:#7367F029;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: var(--color-bg);
+}
+
+.contenedor_padre{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+}
+
+.cabecera{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.icono_logo{
+    color: var(--color-purple);
+    font-size: 50px;
+
+}
+
+.contenedorLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-right: solid 1px rgb(216, 216, 216);
+    background-color: #7367F029;
+    padding: 10px 0;
+}
+
+.color_purple{
+    color: var(--color-purple);
+    font-weight: 500;
+}
+
+.contenedor_texto_cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+
+    background-color: #7367F029;
+    color: var(--color-purple);
+    padding: 10px 0;
+}
+
+.titulo_historia{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text_small{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.tabla_info,.tablaCitas{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablaCitas{
+    margin-top: 20px;
+    border: solid 1px rgb(225, 225, 225);
+}
+
+.tabla_info td{
+    border: solid 1px rgb(225, 225, 225);
+    padding: 5px 10px;
+}
+
+
+.tablaCitas td{
+    padding: 20px 10px;
+}
+
+
+.bg_purple{
+    background-color: var(--color-bg-purple);
+}
+
+.text_center{
+    text-align: center;
+}
